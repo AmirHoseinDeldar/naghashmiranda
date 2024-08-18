@@ -13,15 +13,18 @@ import {
   FaXTwitter,
   FaYoutube,
   FaLaptopCode,
+  FaBlender,
 } from "react-icons/fa6";
-import { FaFacebookSquare, FaPaintBrush } from "react-icons/fa";
+import { FaApple, FaFacebookSquare, FaPaintBrush } from "react-icons/fa";
 import { TfiWrite } from "react-icons/tfi";
-import { DiReact } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { SiExpress, SiMongodb } from "react-icons/si";
+
 import { CgFigma } from "react-icons/cg";
-import { TbBrandReactNative } from "react-icons/tb";
-import { SiAdobexd } from "react-icons/si";
+import {
+  SiAdobeaftereffects,
+  SiAdobeillustrator,
+  SiAdobephotoshop,
+  SiAdobexd,
+} from "react-icons/si";
 
 export const tabs = [
   { name: "درباره من", id: "about" },
@@ -145,12 +148,12 @@ export const projects = [
     stack: [
       {
         name: "Photoshop",
-        icon: <FaAdobe />,
+        icon: <SiAdobephotoshop />,
         iconColor: "blue",
       },
       {
         name: "Illustrator",
-        icon: <FaAdobe />,
+        icon: <SiAdobeillustrator />,
         iconColor: "orange",
       },
     ],
@@ -210,7 +213,7 @@ export const projects = [
     stack: [
       {
         name: "After Effects",
-        icon: <FaAdobe />,
+        icon: <SiAdobeaftereffects />,
         iconColor: "red",
       },
     ],
