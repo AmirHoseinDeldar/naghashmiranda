@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 
 :root {
-  --bg-primary: #070d06;
-  --bg-secondary: #1c2f1a;
-  --bg-accent: #091807;
-  --bg-muted: #243b21;
+  --bg-primary: #06080d;
+  --bg-secondary: #3A1078;
+  --bg-accent: #0c0718;
+  --bg-muted: #25213b;
   --foreground: #f8f9f8;
   --muted-foreground: #869285;
-  --border-primary: #243b21;
+  --border-primary: #24213b;
   --border-secondary: #101530;
-  --primary: #c2ad34;
-  --primary-accent: #a09503;
+  --primary: #3795bd;
+  --primary-accent: #4e31aa;
   --gradient-1: linear-gradient(
     to right,
     var(--primary) 0%,
