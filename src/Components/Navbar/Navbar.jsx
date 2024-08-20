@@ -24,10 +24,14 @@ const Navbar = () => {
         >
           <HiMenu />
         </div>
-        <Link to="contact" smooth={true} className="btn primary contact-btn">
+        <Link
+          to="contact"
+          smooth={true}
+          className="btn primary contact-btn Rubik"
+        >
           درخواست کار!
         </Link>
-        <Link to="services" smooth={true} className="btn services-btn">
+        <Link to="services" smooth={true} className="btn services-btn Rubik">
           سرویس ها
         </Link>
       </div>

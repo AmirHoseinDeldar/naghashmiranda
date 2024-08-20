@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 :root {
   --bg-primary: #06080d;
-  --bg-secondary: #3A1078;
+  --bg-secondary: #3a1078;
   --bg-accent: #0c0718;
   --bg-muted: #25213b;
   --foreground: #f8f9f8;
@@ -63,6 +64,10 @@ body {
   font-weight: 700;
   font-style: normal;
 }
+.Rubik {
+  font-family: "Rubik", serif;
+  font-weight: 700;
+}
 
 p {
   font-size: 15px;
@@ -91,7 +96,7 @@ img {
 .heading-1 {
   font-size: 60px;
   font-weight: 700;
-  line-height: 65px;
+  line-height: 85px;
   margin: 20px 0;
   text-align: center;
 }
