@@ -91,6 +91,10 @@ export const skills = [
         skill: "نقاشی دیجیتال",
         level: "متوسط",
       },
+      {
+        skill: "نقاشی ذغال",
+        level: "متوسط",
+      },
     ],
   },
   {

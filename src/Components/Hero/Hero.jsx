@@ -7,10 +7,10 @@ const Hero = () => {
   return (
     <section id="hero">
       <div className="wrapper info-container">
-        <div className="column hero-image">
+        <div className="column hero-image responsive-pic ">
           <img src={me} alt="" />
         </div>
-        <div className="column">
+        <div className="column ">
           <h3 className="sub-title">
             سلام من <span className="primary">میراندا هستم</span>
           </h3>

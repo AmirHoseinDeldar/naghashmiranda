@@ -42,6 +42,10 @@
   #hero .info-container * {
     text-align: center;
   }
+  #hero .responsive-pic {
+    order: 1;
+  }
+
   #hero .info-container {
     grid-template-columns: 100%;
   }
