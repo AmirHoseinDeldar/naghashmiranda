@@ -141,11 +141,12 @@ export const skills = [
   },
 ];
 
-export const projects = [
+export const activeProjects = [
   {
     id: 1,
     title: "گالری آثار هنری",
-    image: "https://example.com/gallery-image.jpg",
+    image:
+      "https://www.100honar.com/content/images/paint/%D8%B3%D9%84%D9%81-%D9%BE%D8%B1%D8%AA%D8%B1%D9%87-%D8%AF%D8%B1-%D9%86%D9%82%D8%A7%D8%B4%DB%8C/%D8%B3%D9%84%D9%81-%D9%BE%D8%B1%D8%AA%D8%B1%D9%87-%D9%84%D9%88%D8%B3%DB%8C%D9%86-%D9%81%D8%B1%D9%88%DB%8C%D8%AF.jpg",
     category: "پورتفولیو",
     description: `طراحی و توسعه یک گالری آنلاین برای نمایش آثار هنری، با قابلیت‌های شخصی‌سازی و تعامل آسان برای نمایش و فروش آثار هنری.`,
     demoLink: "https://example.com/",
@@ -156,16 +157,32 @@ export const projects = [
         iconColor: "blue",
       },
       {
-        name: "Illustrator",
-        icon: <SiAdobeillustrator />,
-        iconColor: "orange",
+        name: "Figma",
+        icon: <CgFigma />,
+        iconColor: "orangered",
+      },
+      {
+        name: "Procreate",
+        icon: <FaApple />,
+        iconColor: "black",
+      },
+      {
+        name: "Blender",
+        icon: <FaBlender />,
+        iconColor: "blue",
+      },
+      {
+        name: "After Effects",
+        icon: <SiAdobeaftereffects />,
+        iconColor: "red",
       },
     ],
   },
   {
     id: 2,
     title: "پورتفولیوی دیجیتال",
-    image: "https://example.com/portfolio-image.jpg",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiMhLJ9NuW6e_zsz57XG1pm6LEJMzHsoE3qQ&s",
     category: "پورتفولیو",
     description: `ایجاد پورتفولیوی دیجیتال زیبا و کاربرپسند برای نمایش پروژه‌ها و آثار هنری، با طراحی مدرن و قابلیت‌های بهینه‌سازی برای جلب توجه مشتریان و علاقه‌مندان.`,
     demoLink: "https://example.com/",
@@ -175,12 +192,33 @@ export const projects = [
         icon: <CgFigma />,
         iconColor: "orangered",
       },
+      {
+        name: "Photoshop",
+        icon: <SiAdobephotoshop />,
+        iconColor: "blue",
+      },
+      {
+        name: "Procreate",
+        icon: <FaApple />,
+        iconColor: "black",
+      },
+      {
+        name: "Blender",
+        icon: <FaBlender />,
+        iconColor: "blue",
+      },
+      {
+        name: "After Effects",
+        icon: <SiAdobeaftereffects />,
+        iconColor: "red",
+      },
     ],
   },
   {
     id: 3,
     title: "نقاشی‌های سفارشی",
-    image: "https://example.com/custom-art-image.jpg",
+    image:
+      "https://artang.ir/wp-content/uploads/2019/12/self-portrait-vincent-van-gogh.jpeg",
     category: "سفارشی",
     description: `پروژه‌ای برای ایجاد بستر آنلاین جهت سفارش و نمایش نقاشی‌های سفارشی، با امکان مشاهده نمونه کارها و تعامل مستقیم با هنرمند.`,
     demoLink: "https://example.com/",
@@ -190,12 +228,28 @@ export const projects = [
         icon: <SiAdobexd />,
         iconColor: "skyblue",
       },
+      {
+        name: "Procreate",
+        icon: <FaApple />,
+        iconColor: "black",
+      },
+      {
+        name: "Blender",
+        icon: <FaBlender />,
+        iconColor: "blue",
+      },
+      {
+        name: "After Effects",
+        icon: <SiAdobeaftereffects />,
+        iconColor: "red",
+      },
     ],
   },
   {
     id: 4,
     title: "آثار هنری تعاملی",
-    image: "https://example.com/interactive-art-image.jpg",
+    image:
+      "https://www.100honar.com/content/images/paint/%D8%B3%D9%84%D9%81-%D9%BE%D8%B1%D8%AA%D8%B1%D9%87-%D8%AF%D8%B1-%D9%86%D9%82%D8%A7%D8%B4%DB%8C/%D8%B3%D9%84%D9%81-%D9%BE%D8%B1%D8%AA%D8%B1%D9%87-%D8%A7%D8%AF%D9%88%D8%A7%D8%B1%D8%AF-%D9%85%D9%88%D9%86%D8%B4.jpg",
     category: "تعاملی",
     description: `طراحی یک اپلیکیشن برای نمایش آثار هنری تعاملی، که به کاربران امکان مشاهده و تعامل با آثار هنری به صورت دیجیتال را می‌دهد.`,
     demoLink: "https://example.com/",
@@ -205,12 +259,23 @@ export const projects = [
         icon: <FaApple />,
         iconColor: "black",
       },
+      {
+        name: "Blender",
+        icon: <FaBlender />,
+        iconColor: "blue",
+      },
+      {
+        name: "After Effects",
+        icon: <SiAdobeaftereffects />,
+        iconColor: "red",
+      },
     ],
   },
   {
     id: 5,
     title: "آثار هنری ویدیویی",
-    image: "https://example.com/video-art-image.jpg",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQH1rMQW37CrAF0Dglicgk4-1ciUUTVuxHzUUia0e9bTXrhsOp9EVGV6zuDfmUO0rJ0KQ&usqp=CAU",
     category: "ویدیویی",
     description: `ایجاد طراحی رابط کاربری برای نمایش آثار هنری ویدیویی، با تمرکز بر تجربه کاربری و تعامل آسان با ویدیوهای هنری.`,
     demoLink: "https://example.com/",
@@ -220,12 +285,23 @@ export const projects = [
         icon: <SiAdobeaftereffects />,
         iconColor: "red",
       },
+      {
+        name: "Procreate",
+        icon: <FaApple />,
+        iconColor: "black",
+      },
+      {
+        name: "Photoshop",
+        icon: <SiAdobephotoshop />,
+        iconColor: "blue",
+      },
     ],
   },
   {
     id: 6,
     title: "نمایشگاه هنری مجازی",
-    image: "https://example.com/virtual-exhibition-image.jpg",
+    image:
+      "https://static2.bartarinha.ir/servev2/zI0NTgxM2RhN/5Uwvb7W7Zm0,/file.jpg",
     category: "نمایشگاه",
     description: `پروژه‌ای برای ایجاد یک نمایشگاه هنری مجازی، با امکان مشاهده و تعامل با آثار هنری از طریق یک بستر آنلاین، مناسب برای نمایشگاه‌های دیجیتال و تعامل با بازدیدکنندگان.`,
     demoLink: "https://example.com/",
@@ -234,6 +310,16 @@ export const projects = [
         name: "Blender",
         icon: <FaBlender />,
         iconColor: "blue",
+      },
+      {
+        name: "Procreate",
+        icon: <FaApple />,
+        iconColor: "black",
+      },
+      {
+        name: "After Effects",
+        icon: <SiAdobeaftereffects />,
+        iconColor: "red",
       },
     ],
   },
