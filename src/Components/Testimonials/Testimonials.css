@@ -1,0 +1,74 @@
+#Testimonials .Testimonials-container {
+  margin-top: 20px;
+}
+
+#Testimonials .slick-track {
+  display: flex !important;
+  gap: 20px;
+}
+
+#Testimonials .slick-slide {
+  height: inherit !important;
+  background: var(--bg-accent);
+  padding: 40px 30px;
+  border-radius: 10px;
+  border: 0.5px solid var(--border-primary);
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  transition: var(--transition);
+}
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+#Testimonials .slick-slide:hover {
+  background: var(--bg-muted);
+}
+
+#Testimonials .slick-slide > div {
+  flex: 1;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#Testimonials .details {
+  text-align: end;
+}
+
+#Testimonials .profile {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+#Testimonials .profile:hover {
+  opacity: 0.5;
+}
+#Testimonials .content {
+  flex: 1;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#Testimonials .stars-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--warning);
+}
+#Testimonials .buttons-container {
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#Testimonials .buttons-container .btn:hover {
+  background: transparent;
+}

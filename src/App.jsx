@@ -17,8 +17,8 @@ function App() {
       <Services />
       <Projects />
       <Testimonials />
-      {/* <Contact /> */}
-      {/* <Footer /> */}
+      <Contact />
+      <Footer />
     </>
   );
 }

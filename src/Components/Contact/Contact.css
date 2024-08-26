@@ -1,0 +1,97 @@
+#Contact .wrapper {
+  display: grid;
+  grid-template-columns: 400px auto;
+  gap: 30px;
+}
+
+#Contact .contact-options {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+}
+
+#Contact .contact-options .option {
+  background: var(--bg-accent);
+  padding: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+  border: solid 0.5px var(--border-primary);
+  transition: var(--transition);
+}
+
+#Contact .contact-options .option:hover {
+  transform: scale(0.98);
+  background: var(--bg-muted);
+}
+
+#Contact .contact-options .option .icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  min-width: 4rem;
+  max-width: 4rem;
+  min-height: 4rem;
+  max-height: 4rem;
+  font-size: 25px;
+  background: transparent;
+}
+
+#Contact .contact-options .option:hover .icon-wrapper {
+  color: var(--foreground);
+}
+
+#Contact .contact-options .option .value {
+  font-size: 15px;
+}
+
+#Contact .contact-form {
+  background: var(--bg-accent);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#Contact .title {
+  font-size: 40px;
+}
+
+#Contact .row {
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#Contact .control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  background: var(--bg-primary);
+  border-radius: 10px;
+  color: var(--foreground);
+  font-size: 15px;
+  overflow: hidden;
+  transition: var(--transition);
+  border: solid 0.5px var(--border-primary);
+  resize: none;
+}
+
+#Contact .control:focus {
+  border-color: var(--primary);
+  background: var(--bg-secondary);
+}
+
+#Contact .bottom {
+  margin-top: 40px;
+}
+
+#Contact .btn {
+  display: block;
+  padding: 20px 30px;
+  max-width: 300px;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  #Contact .wrapper {
+    grid-template-columns: 100%;
+  }
+}
